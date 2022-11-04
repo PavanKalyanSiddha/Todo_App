@@ -11,7 +11,7 @@ import {
 const Todo = () => {
   const [taskList, setTaskList] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const [edit, setEdit] = useState("");
+  // const [edit, setEdit] = useState("");
   const [editValue, setEditValue] = useState("");
   const [openInput, setOpenInput] = useState(false);
   const [editInputIdx, setEditInputIdx] = useState(null);

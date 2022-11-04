@@ -24,10 +24,10 @@ const LoginPage = (props) => {
       <ButtonContainer
         onClick={() => {
           if (
-            mail &&
-            password
-            // mail === "default@email.com"
-            // && password === "Default@2022"
+            // mail &&
+            // password
+            mail === "default@email.com"
+            && password === "Default@2022"
           ) {
             history.push("/dashboard")
             localStorage.setItem("accessToken", "default@email.com")

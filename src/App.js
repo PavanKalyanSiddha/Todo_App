@@ -2,7 +2,7 @@ import React from "react";
 import LoginPage from "./components/loginPage/LoginPage";
 import Todo from "./components/todo/todo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import history from "./components/history";
+
 
 const App = () => {
   // const [loginPage, setLoginPage] = useState(true)
